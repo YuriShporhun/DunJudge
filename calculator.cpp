@@ -21,7 +21,7 @@ int main()
 	string _operator = tokens[1];
 	int numberTwo = atoi(tokens[2].c_str());
 
-	int result;
+	int result = 0;
 
 	if(_operator == "+")
 	{
